@@ -1,0 +1,2 @@
+Monitoring node: /static_map_node
+Monitoring node: /static_map_node

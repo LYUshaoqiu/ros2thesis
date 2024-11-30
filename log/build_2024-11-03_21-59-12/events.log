@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (ros2_demo_project) JobQueued: {'identifier': 'ros2_demo_project', 'dependencies': OrderedDict()}
+[0.000216] (ros2_demo_project) JobStarted: {'identifier': 'ros2_demo_project'}
+[0.006475] (ros2_demo_project) JobProgress: {'identifier': 'ros2_demo_project', 'progress': 'cmake'}
+[0.006698] (ros2_demo_project) Command: {'cmd': ['/usr/bin/cmake', '/home/lyu/new_ros2_ws/src/ros2_demo_project', '-DCMAKE_INSTALL_PREFIX=/home/lyu/new_ros2_ws/install/ros2_demo_project'], 'cwd': '/home/lyu/new_ros2_ws/build/ros2_demo_project', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'lyu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2871'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0e8e79b23c48a0e00604a34466c56e7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lyu/new_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lyu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lyu-VirtualBox:@/tmp/.ICE-unix/2871,unix/lyu-VirtualBox:/tmp/.ICE-unix/2871'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7e7326b_e49a_41c6_966c_c533dbb776e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COK4S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1426'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lyu/new_ros2_ws/install/ros2_demo_project:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lyu/new_ros2_ws/build/ros2_demo_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0e8e79b23c48a0e00604a34466c56e7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lyu/new_ros2_ws/install/ros2_demo_project:/opt/ros/humble')]), 'shell': False}
+[0.051336] (ros2_demo_project) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091834] (ros2_demo_project) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.096719] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.100320] (-) TimerEvent: {}
+[0.154343] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.158811] (ros2_demo_project) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.159000] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.159218] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.161158] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200454] (-) TimerEvent: {}
+[0.221038] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.225516] (ros2_demo_project) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.225773] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.226080] (ros2_demo_project) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.227441] (ros2_demo_project) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300596] (-) TimerEvent: {}
+[0.320106] (ros2_demo_project) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.376382] (ros2_demo_project) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.401056] (-) TimerEvent: {}
+[0.401214] (ros2_demo_project) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.404012] (ros2_demo_project) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.409192] (ros2_demo_project) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.417736] (ros2_demo_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.429616] (ros2_demo_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.473214] (ros2_demo_project) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.474682] (ros2_demo_project) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.502158] (-) TimerEvent: {}
+[0.544766] (ros2_demo_project) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.564035] (ros2_demo_project) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.594660] (ros2_demo_project) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600242] (ros2_demo_project) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.602368] (-) TimerEvent: {}
+[0.658294] (ros2_demo_project) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.658658] (ros2_demo_project) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.702643] (-) TimerEvent: {}
+[0.713282] (ros2_demo_project) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.714385] (ros2_demo_project) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.803084] (-) TimerEvent: {}
+[0.814363] (ros2_demo_project) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.903324] (-) TimerEvent: {}
+[0.905076] (ros2_demo_project) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.003548] (-) TimerEvent: {}
+[1.103843] (-) TimerEvent: {}
+[1.166591] (ros2_demo_project) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.204268] (-) TimerEvent: {}
+[1.216005] (ros2_demo_project) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.217253] (ros2_demo_project) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.217392] (ros2_demo_project) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.217428] (ros2_demo_project) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.217833] (ros2_demo_project) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.218221] (ros2_demo_project) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.218612] (ros2_demo_project) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.219685] (ros2_demo_project) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.219749] (ros2_demo_project) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.220010] (ros2_demo_project) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.220806] (ros2_demo_project) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.234752] (ros2_demo_project) StdoutLine: {'line': b'-- Generating done\n'}
+[1.236176] (ros2_demo_project) StdoutLine: {'line': b'-- Build files have been written to: /home/lyu/new_ros2_ws/build/ros2_demo_project\n'}
+[1.245729] (ros2_demo_project) CommandEnded: {'returncode': 0}
+[1.245993] (ros2_demo_project) JobProgress: {'identifier': 'ros2_demo_project', 'progress': 'build'}
+[1.246013] (ros2_demo_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lyu/new_ros2_ws/build/ros2_demo_project', '--', '-j4', '-l4'], 'cwd': '/home/lyu/new_ros2_ws/build/ros2_demo_project', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'lyu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2871'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0e8e79b23c48a0e00604a34466c56e7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lyu/new_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lyu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lyu-VirtualBox:@/tmp/.ICE-unix/2871,unix/lyu-VirtualBox:/tmp/.ICE-unix/2871'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7e7326b_e49a_41c6_966c_c533dbb776e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COK4S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1426'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lyu/new_ros2_ws/install/ros2_demo_project:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lyu/new_ros2_ws/build/ros2_demo_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0e8e79b23c48a0e00604a34466c56e7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lyu/new_ros2_ws/install/ros2_demo_project:/opt/ros/humble')]), 'shell': False}
+[1.289632] (ros2_demo_project) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mmwave_radar_node.dir/src/mmwave_radar_node.cpp.o\x1b[0m\n'}
+[1.289774] (ros2_demo_project) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/thingy52_node.dir/src/thingy52_node.cpp.o\x1b[0m\n'}
+[1.289812] (ros2_demo_project) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/kinect_node.dir/src/kinect_node.cpp.o\x1b[0m\n'}
+[1.289849] (ros2_demo_project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/static_map_node.dir/src/static_map_node.cpp.o\x1b[0m\n'}
+[1.340494] (-) TimerEvent: {}
+[1.486157] (-) TimerEvent: {}
+[1.634807] (-) TimerEvent: {}
+[1.750710] (-) TimerEvent: {}
+[1.857746] (-) TimerEvent: {}
+[1.959949] (-) TimerEvent: {}
+[2.064012] (-) TimerEvent: {}
+[2.200812] (-) TimerEvent: {}
+[2.303672] (-) TimerEvent: {}
+[2.404575] (-) TimerEvent: {}
+[2.531879] (-) TimerEvent: {}
+[2.634895] (-) TimerEvent: {}
+[2.764075] (-) TimerEvent: {}
+[2.879104] (-) TimerEvent: {}
+[2.988877] (-) TimerEvent: {}
+[3.102541] (-) TimerEvent: {}
+[3.226667] (-) TimerEvent: {}
+[3.340334] (-) TimerEvent: {}
+[3.442758] (-) TimerEvent: {}
+[3.544258] (-) TimerEvent: {}
+[3.668714] (-) TimerEvent: {}
+[3.769496] (-) TimerEvent: {}
+[3.872672] (-) TimerEvent: {}
+[3.973674] (ros2_demo_project) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable static_map_node\x1b[0m\n'}
+[3.973822] (-) TimerEvent: {}
+[4.098705] (-) TimerEvent: {}
+[4.178434] (ros2_demo_project) StdoutLine: {'line': b'[ 62%] Built target static_map_node\n'}
+[4.214650] (-) TimerEvent: {}
+[4.224579] (ros2_demo_project) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable thingy52_node\x1b[0m\n'}
+[4.228838] (ros2_demo_project) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable kinect_node\x1b[0m\n'}
+[4.271401] (ros2_demo_project) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mmwave_radar_node\x1b[0m\n'}
+[4.315107] (-) TimerEvent: {}
+[4.355101] (ros2_demo_project) StdoutLine: {'line': b'[100%] Built target thingy52_node\n'}
+[4.371007] (ros2_demo_project) StdoutLine: {'line': b'[100%] Built target kinect_node\n'}
+[4.406412] (ros2_demo_project) StdoutLine: {'line': b'[100%] Built target mmwave_radar_node\n'}
+[4.414958] (ros2_demo_project) CommandEnded: {'returncode': 0}
+[4.415248] (-) TimerEvent: {}
+[4.446330] (ros2_demo_project) JobProgress: {'identifier': 'ros2_demo_project', 'progress': 'install'}
+[4.454625] (ros2_demo_project) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lyu/new_ros2_ws/build/ros2_demo_project'], 'cwd': '/home/lyu/new_ros2_ws/build/ros2_demo_project', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'lyu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2871'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0e8e79b23c48a0e00604a34466c56e7d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lyu/new_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lyu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lyu-VirtualBox:@/tmp/.ICE-unix/2871,unix/lyu-VirtualBox:/tmp/.ICE-unix/2871'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7e7326b_e49a_41c6_966c_c533dbb776e1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COK4S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1426'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lyu/new_ros2_ws/install/ros2_demo_project:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lyu/new_ros2_ws/build/ros2_demo_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0e8e79b23c48a0e00604a34466c56e7d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lyu/new_ros2_ws/install/ros2_demo_project:/opt/ros/humble')]), 'shell': False}
+[4.462558] (ros2_demo_project) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.462729] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/thingy52_node\n'}
+[4.464001] (ros2_demo_project) StdoutLine: {'line': b'-- Set runtime path of "/home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/thingy52_node" to ""\n'}
+[4.464070] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/mmwave_radar_node\n'}
+[4.465354] (ros2_demo_project) StdoutLine: {'line': b'-- Set runtime path of "/home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/mmwave_radar_node" to ""\n'}
+[4.465420] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/kinect_node\n'}
+[4.466671] (ros2_demo_project) StdoutLine: {'line': b'-- Set runtime path of "/home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/kinect_node" to ""\n'}
+[4.466756] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/static_map_node\n'}
+[4.467721] (ros2_demo_project) StdoutLine: {'line': b'-- Set runtime path of "/home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/static_map_node" to ""\n'}
+[4.467787] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch\n'}
+[4.467895] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/kinect_launch.py\n'}
+[4.467988] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/system_demo_launch.py\n'}
+[4.468074] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/mmwave_radar_launch.py\n'}
+[4.468193] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config\n'}
+[4.468271] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config/thingy52_params.yaml\n'}
+[4.468415] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config/kinect_params.yaml\n'}
+[4.468534] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config/mmwave_radar_params.yaml\n'}
+[4.468855] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ament_index/resource_index/package_run_dependencies/ros2_demo_project\n'}
+[4.469063] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ament_index/resource_index/parent_prefix_path/ros2_demo_project\n'}
+[4.469207] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/ament_prefix_path.sh\n'}
+[4.469327] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/ament_prefix_path.dsv\n'}
+[4.469496] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/path.sh\n'}
+[4.469654] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/path.dsv\n'}
+[4.469771] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.bash\n'}
+[4.469895] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.sh\n'}
+[4.470065] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.zsh\n'}
+[4.470177] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.dsv\n'}
+[4.470270] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/package.dsv\n'}
+[4.470453] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ament_index/resource_index/packages/ros2_demo_project\n'}
+[4.470771] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/cmake/ros2_demo_projectConfig.cmake\n'}
+[4.470888] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/cmake/ros2_demo_projectConfig-version.cmake\n'}
+[4.471028] (ros2_demo_project) StdoutLine: {'line': b'-- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/package.xml\n'}
+[4.472635] (ros2_demo_project) CommandEnded: {'returncode': 0}
+[4.514728] (ros2_demo_project) JobEnded: {'identifier': 'ros2_demo_project', 'rc': 0}
+[4.515232] (-) EventReactorShutdown: {}

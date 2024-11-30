@@ -1,0 +1,2 @@
+Monitoring node: /rviz2
+Monitoring node: /rviz2

@@ -1,0 +1,2 @@
+Monitoring node: /thingy52_node
+Monitoring node: /thingy52_node

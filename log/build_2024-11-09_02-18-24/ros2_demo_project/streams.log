@@ -1,0 +1,45 @@
+[0.007s] Invoking command in '/home/lyu/new_ros2_ws/build/ros2_demo_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lyu/new_ros2_ws/build/ros2_demo_project -- -j4 -l4
+[0.048s] [ 50%] Built target thingy52_node
+[0.048s] [ 50%] Built target static_map_node
+[0.049s] [ 50%] Built target mmwave_radar_node
+[0.050s] [ 66%] Built target kinect_node
+[0.065s] [ 75%] [32mBuilding CXX object CMakeFiles/node_monitor_node.dir/src/node_monitor_node.cpp.o[0m
+[0.065s] [ 91%] Built target room_map_node
+[4.769s] [100%] [32m[1mLinking CXX executable node_monitor_node[0m
+[4.958s] [100%] Built target node_monitor_node
+[4.968s] Invoked command in '/home/lyu/new_ros2_ws/build/ros2_demo_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lyu/new_ros2_ws/build/ros2_demo_project -- -j4 -l4
+[5.008s] Invoking command in '/home/lyu/new_ros2_ws/build/ros2_demo_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lyu/new_ros2_ws/build/ros2_demo_project
+[5.012s] -- Install configuration: ""
+[5.013s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/thingy52_node
+[5.013s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/mmwave_radar_node
+[5.013s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/kinect_node
+[5.013s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/static_map_node
+[5.013s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/room_map_node
+[5.013s] -- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/node_monitor_node
+[5.017s] -- Set runtime path of "/home/lyu/new_ros2_ws/install/ros2_demo_project/lib/ros2_demo_project/node_monitor_node" to ""
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/room_map_launch.py
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/kinect_launch.py
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/system_demo_launch.py
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/mmwave_radar_launch.py
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//launch/node_monitor_launch.py
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config/thingy52_params.yaml
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config/kinect_params.yaml
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project//config/mmwave_radar_params.yaml
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ament_index/resource_index/package_run_dependencies/ros2_demo_project
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ament_index/resource_index/parent_prefix_path/ros2_demo_project
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/ament_prefix_path.sh
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/ament_prefix_path.dsv
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/path.sh
+[5.017s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/environment/path.dsv
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.bash
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.sh
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.zsh
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/local_setup.dsv
+[5.018s] -- Installing: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/package.dsv
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ament_index/resource_index/packages/ros2_demo_project
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/cmake/ros2_demo_projectConfig.cmake
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/cmake/ros2_demo_projectConfig-version.cmake
+[5.018s] -- Up-to-date: /home/lyu/new_ros2_ws/install/ros2_demo_project/share/ros2_demo_project/package.xml
+[5.019s] Invoked command in '/home/lyu/new_ros2_ws/build/ros2_demo_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lyu/new_ros2_ws/build/ros2_demo_project

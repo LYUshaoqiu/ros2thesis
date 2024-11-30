@@ -1,0 +1,3 @@
+thingy52_node:
+  ros__parameters:
+    param1: "value1"

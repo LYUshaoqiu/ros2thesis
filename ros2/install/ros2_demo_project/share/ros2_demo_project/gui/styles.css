@@ -1,0 +1,40 @@
+/* 页面整体样式 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* 标题样式 */
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* 输入框和按钮样式 */
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* 按钮悬停样式 */
+button:hover {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 图片预览样式 */
+img {
+    margin-top: 20px;
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}

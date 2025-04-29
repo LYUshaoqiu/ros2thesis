@@ -1,0 +1,114 @@
+[0.038s] Invoking command in '/home/shaoqiu/ros2/build/ros2_demo_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shaoqiu/ros2/ros2thesis-main/src/ros2_demo_project -DCMAKE_INSTALL_PREFIX=/home/shaoqiu/ros2/install/ros2_demo_project
+[0.191s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.291s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.414s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.539s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.547s] -- Detecting CXX compile features
+[0.548s] -- Detecting CXX compile features - done
+[0.560s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.730s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.893s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.996s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.007s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.027s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.210s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.218s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.425s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.487s] -- Looking for pthread.h
+[1.586s] -- Looking for pthread.h - found
+[1.588s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.687s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.688s] -- Found Threads: TRUE  
+[1.795s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.851s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.077s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.110s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.234s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.236s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.236s] -- Configured cppcheck include dirs: 
+[2.236s] -- Configured cppcheck exclude dirs and/or files: 
+[2.238s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.239s] -- Added test 'lint_cmake' to check CMake code style
+[2.241s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.243s] -- Added test 'uncrustify' to check C / C++ code style
+[2.243s] -- Configured uncrustify additional arguments: 
+[2.245s] -- Added test 'xmllint' to check XML markup files
+[2.248s] -- Configuring done
+[2.291s] -- Generating done
+[2.301s] -- Build files have been written to: /home/shaoqiu/ros2/build/ros2_demo_project
+[2.314s] Invoked command in '/home/shaoqiu/ros2/build/ros2_demo_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shaoqiu/ros2/ros2thesis-main/src/ros2_demo_project -DCMAKE_INSTALL_PREFIX=/home/shaoqiu/ros2/install/ros2_demo_project
+[2.317s] Invoking command in '/home/shaoqiu/ros2/build/ros2_demo_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaoqiu/ros2/build/ros2_demo_project -- -j4 -l4
+[2.384s] [  8%] [32mBuilding CXX object CMakeFiles/mmwave_radar_node.dir/src/mmwave_radar_node.cpp.o[0m
+[2.384s] [ 16%] [32mBuilding CXX object CMakeFiles/thingy52_node.dir/src/thingy52_node.cpp.o[0m
+[2.390s] [ 25%] [32mBuilding CXX object CMakeFiles/kinect_node.dir/src/kinect_node.cpp.o[0m
+[2.390s] [ 33%] [32mBuilding CXX object CMakeFiles/static_map_node.dir/src/static_map_node.cpp.o[0m
+[6.758s] [ 41%] [32m[1mLinking CXX executable static_map_node[0m
+[7.005s] [ 41%] Built target static_map_node
+[7.053s] [ 50%] [32mBuilding CXX object CMakeFiles/node_monitor_node.dir/src/node_monitor_node.cpp.o[0m
+[7.361s] [ 58%] [32m[1mLinking CXX executable kinect_node[0m
+[7.430s] [ 66%] [32m[1mLinking CXX executable thingy52_node[0m
+[7.538s] [ 75%] [32m[1mLinking CXX executable mmwave_radar_node[0m
+[7.579s] [ 75%] Built target kinect_node
+[7.620s] [ 83%] [32mBuilding CXX object CMakeFiles/room_map_node.dir/src/room_map_node.cpp.o[0m
+[7.677s] [ 83%] Built target thingy52_node
+[7.770s] [ 83%] Built target mmwave_radar_node
+[11.835s] [ 91%] [32m[1mLinking CXX executable room_map_node[0m
+[12.070s] [ 91%] Built target room_map_node
+[15.218s] [100%] [32m[1mLinking CXX executable node_monitor_node[0m
+[15.592s] [100%] Built target node_monitor_node
+[15.623s] Invoked command in '/home/shaoqiu/ros2/build/ros2_demo_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaoqiu/ros2/build/ros2_demo_project -- -j4 -l4
+[15.637s] Invoking command in '/home/shaoqiu/ros2/build/ros2_demo_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaoqiu/ros2/build/ros2_demo_project
+[15.648s] -- Install configuration: ""
+[15.648s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/api_server.py
+[15.648s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/thingy52_node
+[15.650s] -- Set runtime path of "/home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/thingy52_node" to ""
+[15.650s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/mmwave_radar_node
+[15.652s] -- Set runtime path of "/home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/mmwave_radar_node" to ""
+[15.652s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/kinect_node
+[15.654s] -- Set runtime path of "/home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/kinect_node" to ""
+[15.654s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/static_map_node
+[15.655s] -- Set runtime path of "/home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/static_map_node" to ""
+[15.655s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/room_map_node
+[15.657s] -- Set runtime path of "/home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/room_map_node" to ""
+[15.657s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/node_monitor_node
+[15.662s] -- Set runtime path of "/home/shaoqiu/ros2/install/ros2_demo_project/lib/ros2_demo_project/node_monitor_node" to ""
+[15.662s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//launch
+[15.662s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//launch/room_map_launch.py
+[15.662s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//launch/mmwave_radar_launch.py
+[15.662s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//launch/node_monitor_launch.py
+[15.663s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//launch/kinect_launch.py
+[15.663s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//launch/system_demo_launch.py
+[15.663s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//config
+[15.663s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//config/thingy52_params.yaml
+[15.673s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//config/mmwave_radar_params.yaml
+[15.674s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//config/kinect_params.yaml
+[15.674s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//gui
+[15.675s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//gui/index.html
+[15.675s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//gui/styles.css
+[15.676s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project//gui/main.js
+[15.678s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ament_index/resource_index/package_run_dependencies/ros2_demo_project
+[15.678s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ament_index/resource_index/parent_prefix_path/ros2_demo_project
+[15.678s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/environment/ament_prefix_path.sh
+[15.679s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/environment/ament_prefix_path.dsv
+[15.679s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/environment/path.sh
+[15.680s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/environment/path.dsv
+[15.680s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/local_setup.bash
+[15.680s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/local_setup.sh
+[15.680s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/local_setup.zsh
+[15.680s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/local_setup.dsv
+[15.681s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/package.dsv
+[15.682s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ament_index/resource_index/packages/ros2_demo_project
+[15.682s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/cmake/ros2_demo_projectConfig.cmake
+[15.682s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/cmake/ros2_demo_projectConfig-version.cmake
+[15.682s] -- Installing: /home/shaoqiu/ros2/install/ros2_demo_project/share/ros2_demo_project/package.xml
+[15.686s] Invoked command in '/home/shaoqiu/ros2/build/ros2_demo_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaoqiu/ros2/build/ros2_demo_project

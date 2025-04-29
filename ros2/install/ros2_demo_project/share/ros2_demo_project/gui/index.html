@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROS2 Data Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ROS2 Data Uploader</h1>
+        <p>通过此界面上传深度摄像头数据，并将其发送到 ROS2 系统。</p>
+    </header>
+
+    <main>
+        <!-- 文件上传 -->
+        <section class="upload-section">
+            <h2>选择文件上传</h2>
+            <input type="file" id="fileInput" accept="image/*" />
+            <button onclick="uploadFile()">上传文件</button>
+        </section>
+
+        <!-- 文件预览 -->
+        <section class="preview-section">
+            <h2>文件预览</h2>
+            <img id="preview" alt="预览将显示在这里" />
+        </section>
+
+        <!-- 状态显示 -->
+        <section class="status-section">
+            <h2>上传状态</h2>
+            <p id="statusMessage">当前无状态更新。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ROS2 Demo Project. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

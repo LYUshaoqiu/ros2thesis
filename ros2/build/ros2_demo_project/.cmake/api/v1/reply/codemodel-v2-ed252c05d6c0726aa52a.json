@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1199a01d90559e01d914.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_demo_project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kinect_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinect_node-523a2c5065d4b6b2bb05.json",
+					"name" : "kinect_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mmwave_radar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mmwave_radar_node-738d7af960c0eedd0731.json",
+					"name" : "mmwave_radar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node_monitor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node_monitor_node-936f11fe8429d519abbf.json",
+					"name" : "node_monitor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "room_map_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-room_map_node-f042e44fa22643353764.json",
+					"name" : "room_map_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_demo_project_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_demo_project_uninstall-a11fa307bfe138bb8cab.json",
+					"name" : "ros2_demo_project_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_map_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_map_node-8290a1390585d09f7b9b.json",
+					"name" : "static_map_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thingy52_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thingy52_node-1c2bdeb9c9473eaac073.json",
+					"name" : "thingy52_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-051d46b7e01fafe35f80.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shaoqiu/ros2/build/ros2_demo_project",
+		"source" : "/home/shaoqiu/ros2/ros2thesis-main/src/ros2_demo_project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

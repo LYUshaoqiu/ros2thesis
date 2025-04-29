@@ -1,0 +1,22 @@
+/* styles.css 自定义样式 */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* 使文件输入框的样式更一致 */
+  input[type="file"] {
+    display: block;
+  }
+  
+  /* 点云容器的自定义样式 */
+  #pointCloudContainer {
+    border: 2px solid #ddd;
+  }
+  
+  /* 在小屏幕下调整点云展示大小 */
+  @media (max-width: 768px) {
+    #pointCloudContainer {
+      height: 300px;
+    }
+  }
+  

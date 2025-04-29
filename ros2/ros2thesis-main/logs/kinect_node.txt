@@ -1,0 +1,2 @@
+Monitoring node: /kinect_node
+Monitoring node: /kinect_node
